@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3>Sneakers</h3>
+        <div class="icons">
+            <div class="cart1">
+                <a href="#"><img src="shopping-cart.png" alt=""></a>
+            </div>
+            <div class="pic">
+                <a href="#"><img src="Background.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="links">
+                <a href="#">Collection</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <hr>
+    </header>
+    
+    <div class="container">
+        <div class="product">
+            <div class="one"><img src="Assets/nike1.jfif" alt=""></div>
+            <div class="two"><img src="Assets/nike2.webp" alt=""></div>
+            <div class="three"><img src="Assets/nike3.webp" alt=""></div>
+            <div class="four"><img src="Assets/nike4.webp" alt=""></div>
+            <div class="five"><img src="Assets/nike5.webp" alt=""></div>
+        </div>
+                
+        <div class="info">
+            <p><b>SNEAKER COMPANY</b></p>
+            <br>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <br>
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+            <br>
+            <h4>$125.00<small class="percent">50%</small></h4>
+            <p class="discount"><del>$250.00</del></p>
+            <br>
+            <div class="order">
+                <div class="wrapper">
+                    <button id="minus" onclick="totalClick(-1)">-</button>
+                    <span id="totalClicks">0</span>
+                    <button id="plus" onclick="totalClick(1)">+</button>
+                </div>
+               <button class="shop"> <img src="shopping-cart.png" alt="" class="cart"> Add to cart</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
