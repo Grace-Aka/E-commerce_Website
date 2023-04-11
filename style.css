@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 7rem;
+    position: fixed;
+    background-color: gainsboro;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: -1.5rem;
+}
+
+.icons {
+    display: flex;
+    margin-left: 52rem;
+    margin-bottom: -1.5rem;
+}
+
+.cart1 img {
+    margin-top: 8px;
+    margin-bottom: -6px;
+    height: 20px;
+    width: 20px;
+}
+
+.cart1 img:hover {
+    border-bottom: brown 2px solid;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+    
+.pic img {
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 6px;
+    transition: 0.4s;
+    transition-property: transform;
+}
+
+.pic img:hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+    border: brown 1px solid;
+}
+
+.nav {
+    text-align: center;
+    display: flex;
+    margin-left: 20rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.links a:hover {
+    color: brown;
+   border-bottom: 3px brown solid;
+   transition: 0.2s;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    text-align: center;
+    color: gray;
+    width: 71%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    padding-left: 6rem;
+    background-color: gainsboro;
+}
+
+.product {
+    margin-top: 12rem;
+    border-radius: 10px;
+    height: 35rem;
+    width: 35rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.one {
+    grid-column: 1/6;
+    grid-row: 1/4;
+    border-radius: 10px;
+}
+.one img{
+    height: 27rem;
+    width: 27rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: brown 3px solid;
+}
+
+.two {
+    margin-left: 1.5rem;
+}
+
+.two img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+    border:brown 3px solid;
+}
+
+.three {
+    margin-right: 1.5rem;
+}
+
+.three img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+    border:brown 3px solid;
+}
+
+.four {
+    margin-left: -1.5rem;
+}
+
+.four img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: brown 3px solid;
+}
+
+.five {
+    margin-left: -2.5rem;
+}
+
+.five img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: brown 3px solid;
+}
+
+.info {
+    margin-top: 18rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+b {
+    color: orange;
+}
+
+.percent {
+    background-color: orange;
+    width: fit-content;
+    margin-left: 10px;
+}
+
+.discount {
+    color: rgba(128, 128, 128, 0.616);
+    font-size: small;
+}
+
+.order {
+    display: grid;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.shop {
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    transition: 0.4s;
+    transition-property: transform;
+}
+
+.shop:hover {
+    transform: scale(1.1);
+}
+
+.cart {
+    margin-top: 6px;
+    height: 12px;
+    width: 15px;
+    background-color: orange;
+}
+
+.wrapper {
+    margin-left: 1.5rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-weight: 600;
+    gap: 1rem;
+}
+
+#minus {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+
+#plus {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
